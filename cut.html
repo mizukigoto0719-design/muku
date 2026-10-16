@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cut | hair salon muku</title>
+  <meta name="description" content="hair salon mukuのカットメニュー詳細ページです。骨格や髪質に合わせて、扱いやすく自然なスタイルをご提案します。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Noto+Sans+JP:wght@300;400;500&family=Shippori+Mincho:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="index.html#top" class="logo">
+      <svg class="logo__leaf" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M8 34C12 24 16 14 30 6M14 28c-4-1-6-4-6-8 4 0 7 2 8 6M18 22c-3-2-4-5-3-9 4 1 6 4 6 8M23 16c-2-3-2-6 0-9 3 2 4 5 3 8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+      <span class="logo__text">hair salon&ensp;muku</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="gnav" id="gnav">
+      <ul>
+        <li><a href="index.html#top">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#menu">Menu</a></li>
+        <li><a href="index.html#staff">Staff</a></li>
+        <li><a href="index.html#news">News</a></li>
+        <li><a href="index.html#access">Access</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn--sm">ご予約はこちら</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ Page Header ============ -->
+  <section class="page-header">
+    <div class="container">
+      <p class="eyebrow">MENU DETAIL</p>
+      <h1 class="page-header__title">Cut<small style="margin-left: 10px; font-family: var(--sans); font-size: 12px; color: var(--text-light);">カット</small></h1>
+    </div>
+  </section>
+
+  <!-- ============ Menu Detail Section ============ -->
+  <section class="section menu-detail">
+    <div class="container">
+      
+      <!-- Top Image & Intro -->
+      <div class="menu-detail__hero fade">
+        <div class="menu-detail__img img img--cut"></div>
+        <div class="menu-detail__intro">
+          <p class="menu-detail__catch">骨格や髪質に合わせて、<br>扱いやすく自然なスタイルに。</p>
+          <p class="menu-detail__price">¥5,500 <small>(税込)</small></p>
+          <p class="menu-detail__desc">
+            丁寧なカウンセリングで一人ひとりの骨格・生え癖・髪質を見極め、日常になじむ再現性の高いカットをご提案します。<br>
+            「朝のスタイリングを楽にしたい」「自分に似合うスタイルがわからない」など、髪のお悩みを何でもお聞かせください。
+          </p>
+          <div class="menu-detail__meta">
+            <dl>
+              <dt>施術時間</dt>
+              <dd>約60分（カウンセリング・シャンプー・ブロー込）</dd>
+            </dl>
+          </div>
+          <a href="contact.html" class="btn btn--lg" style="margin-top: 24px;">このメニューで予約する<span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="menu-detail__features section--alt fade" style="margin-top: 60px; padding: 40px 30px; border-radius: 8px;">
+        <h2 class="heading heading--sm" style="text-align: center; margin-bottom: 30px;">mukuのカットのこだわり</h2>
+        <div class="menu-detail__grid">
+          <div class="menu-detail__feature-item">
+            <span class="step-num">01</span>
+            <h3>骨格・生え癖に合わせたフィット感</h3>
+            <p>頭の形や毛流れを捉えてベースを作るため、時間が経っても崩れにくく、伸びても綺麗にまとまるスタイルに仕上げます。</p>
+          </div>
+          <div class="menu-detail__feature-item">
+            <span class="step-num">02</span>
+            <h3>手ぐしで整う再現性</h3>
+            <p>サロン帰りの質感がご自宅でも再現できるよう、ドライヤーの当て方や簡単なお手入れ方法まで丁寧にお伝えします。</p>
+          </div>
+          <div class="menu-detail__feature-item">
+            <span class="step-num">03</span>
+            <h3>素材を活かす質感調整</h3>
+            <p>削ぎすぎず軽やかさを出す独特のカット技法で、髪本来のツヤ感と柔らかさを引き出します。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Price List Section -->
+      <div class="menu-detail__sub-prices fade" style="margin-top: 60px;">
+        <h2 class="heading heading--sm" style="margin-bottom: 20px;">カット関連メニュー一覧</h2>
+        <dl class="detail-price-list">
+          <div class="detail-price-item">
+            <dt>一般カット <small>（シャンプー・ブロー込）</small></dt>
+            <dd>¥5,500</dd>
+          </div>
+          <div class="detail-price-item">
+            <dt>中・高校生カット</dt>
+            <dd>¥4,400</dd>
+          </div>
+          <div class="detail-price-item">
+            <dt>小学生・キッズカット</dt>
+            <dd>¥3,300</dd>
+          </div>
+          <div class="detail-price-item">
+            <dt>前髪カット <small>（ポイントカット）</small></dt>
+            <dd>¥1,100</dd>
+          </div>
+        </dl>
+      </div>
+
+      <!-- Back Link -->
+      <div style="text-align: center; margin-top: 60px;">
+        <a href="index.html#menu" class="more"><span class="arrow">←</span> メニュー一覧に戻る</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="index.html#top" class="logo logo--light">
+      <svg class="logo__leaf" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M8 34C12 24 16 14 30 6M14 28c-4-1-6-4-6-8 4 0 7 2 8 6M18 22c-3-2-4-5-3-9 4 1 6 4 6 8M23 16c-2-3-2-6 0-9 3 2 4 5 3 8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+      <span class="logo__text">hair salon&ensp;muku</span>
+    </a>
+    <ul class="footer__nav">
+      <li><a href="index.html#top">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#menu">Menu</a></li>
+      <li><a href="index.html#staff">Staff</a></li>
+      <li><a href="index.html#news">News</a></li>
+      <li><a href="index.html#access">Access</a></li>
+    </ul>
+    <div class="footer__sns">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="X">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M7 7l10 10M17 7L7 17" stroke="#7a604f" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+  </div>
+  <button class="totop" id="toTop" aria-label="ページの先頭へ">↑</button>
+  <p class="footer__copy">&copy; 2026 hair salon muku</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

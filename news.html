@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News | hair salon muku</title>
+  <meta name="description" content="hair salon muku（ヘアサロン ムク）のお知らせ一覧ページです。営業日のご案内やおすすめメニュー、最新情報を掲載しています。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Noto+Sans+JP:wght@300;400;500&family=Shippori+Mincho:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="index.html" class="logo">
+      <svg class="logo__leaf" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M8 34C12 24 16 14 30 6M14 28c-4-1-6-4-6-8 4 0 7 2 8 6M18 22c-3-2-4-5-3-9 4 1 6 4 6 8M23 16c-2-3-2-6 0-9 3 2 4 5 3 8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+      <span class="logo__text">hair salon&ensp;muku</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="gnav" id="gnav">
+      <ul>
+        <li><a href="index.html#top">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#menu">Menu</a></li>
+        <li><a href="index.html#staff">Staff</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#access">Access</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn--sm">ご予約はこちら</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ Page Header ============ -->
+  <div class="page-header">
+    <div class="container">
+      <p class="eyebrow">INFORMATION</p>
+      <h1 class="page-header__title">News<small>お知らせ一覧</small></h1>
+    </div>
+  </div>
+
+  <!-- ============ News Archive Section ============ -->
+  <section class="section news-archive">
+    <div class="container">
+
+      <!-- カテゴリフィルター（拡張性） -->
+      <div class="news-filter">
+        <button class="news-filter__btn is-active" type="button">すべて</button>
+        <button class="news-filter__btn" type="button">お知らせ</button>
+        <button class="news-filter__btn" type="button">おすすめ</button>
+        <button class="news-filter__btn" type="button">サロンブログ</button>
+      </div>
+
+      <!-- ニュースリスト -->
+      <ul class="news-archive__list">
+        <li class="news-archive__item">
+          <a href="#" class="news-archive__link">
+            <div class="news-archive__meta">
+              <time class="news-archive__date" datetime="2026-10-01">2026.10.01</time>
+              <span class="news-archive__category">お知らせ</span>
+            </div>
+            <p class="news-archive__title">10月の営業日および秋期休業のお知らせ</p>
+            <span class="news-archive__arrow"><span class="arrow">→</span></span>
+          </a>
+        </li>
+        <li class="news-archive__item">
+          <a href="#" class="news-archive__link">
+            <div class="news-archive__meta">
+              <time class="news-archive__date" datetime="2026-09-20">2026.09.20</time>
+              <span class="news-archive__category news-archive__category--recommend">おすすめ</span>
+            </div>
+            <p class="news-archive__title">髪色から秋を取り入れる、おすすめの「こっくりベロアブラウン」カラーのご紹介</p>
+            <span class="news-archive__arrow"><span class="arrow">→</span></span>
+          </a>
+        </li>
+        <li class="news-archive__item">
+          <a href="#" class="news-archive__link">
+            <div class="news-archive__meta">
+              <time class="news-archive__date" datetime="2026-09-01">2026.09.01</time>
+              <span class="news-archive__category">お知らせ</span>
+            </div>
+            <p class="news-archive__title">hair salon muku 公式ホームページを開設いたしました</p>
+            <span class="news-archive__arrow"><span class="arrow">→</span></span>
+          </a>
+        </li>
+        <li class="news-archive__item">
+          <a href="#" class="news-archive__link">
+            <div class="news-archive__meta">
+              <time class="news-archive__date" datetime="2026-08-15">2026.08.15</time>
+              <span class="news-archive__category news-archive__category--recommend">おすすめ</span>
+            </div>
+            <p class="news-archive__title">夏の紫外線ダメージをケアする「オーガニックヘッドスパ」のご案内</p>
+            <span class="news-archive__arrow"><span class="arrow">→</span></span>
+          </a>
+        </li>
+        <li class="news-archive__item">
+          <a href="#" class="news-archive__link">
+            <div class="news-archive__meta">
+              <time class="news-archive__date" datetime="2026-08-01">2026.08.01</time>
+              <span class="news-archive__category">お知らせ</span>
+            </div>
+            <p class="news-archive__title">サロン内での感染症対策および衛生管理の取り組みについて</p>
+            <span class="news-archive__arrow"><span class="arrow">→</span></span>
+          </a>
+        </li>
+        <li class="news-archive__item">
+          <a href="#" class="news-archive__link">
+            <div class="news-archive__meta">
+              <time class="news-archive__date" datetime="2026-07-20">2026.07.20</time>
+              <span class="news-archive__category news-archive__category--blog">ブログ</span>
+            </div>
+            <p class="news-archive__title">【スタイリング】湿気に負けない朝の簡単まとまりヘアケア術</p>
+            <span class="news-archive__arrow"><span class="arrow">→</span></span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- ページネーション -->
+      <nav class="pagination" aria-label="ページネーション">
